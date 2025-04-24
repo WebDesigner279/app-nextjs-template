@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #6464642c;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+// RESPONSIVO PARA TELAS PEQUENAS
+@media (max-width: 768px) {
+  .menuToggle {
+    display: block;
+  }
+
+  .navbar {
+    padding: 2.5rem;
+  }
+
+  .navList {
+    flex-direction: column;
+    background-color: #646464e6;
+    position: absolute;
+    margin-top: 1rem;
+    top: 4rem;
+    right: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .open {
+    max-height: 300px; // ou ajuste conforme necessário
+    padding: 1rem 0;
+  }
+
+  .navList li {
+    margin: 1rem 0;
+  }
+}

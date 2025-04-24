@@ -1,0 +1,23 @@
+# Pasta de build do Next.js
+.next/
+
+# Pasta de dependências
+node_modules/
+
+# Arquivos temporários do editor VS Code
+.vscode/
+
+# Arquivos temporários do Codespaces/Dev containers ou do IDE
+.idx/
+
+# Arquivos de log (se existirem futuramente)
+*.log
+
+# Sistema operacional (opcional, mas bom ter)
+.DS_Store
+
+# Ambiente (caso use dotenv futuramente)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
