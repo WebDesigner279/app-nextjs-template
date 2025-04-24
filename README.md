@@ -18,6 +18,7 @@ Comando | Descrição
 
 mkdir -p app/components/Button
 mkdir -p app/components/ContactForm
+mkdir -p app/components/Navbar
 mkdir -p app/home
 mkdir -p app/about
 mkdir -p app/contact
@@ -33,6 +34,9 @@ touch app/components/Button/index.tsx
 touch app/components/ContactForm/ContactForm.module.scss
 touch app/components/ContactForm/ContactForm.tsx
 touch app/components/ContactForm/index.tsx
+touch app/components/Navbar/Navbar.module.scss
+touch app/components/Navbar/Navbar.tsx
+touch app/components/Navbar/index.tsx
 touch app/contact/page.module.scss
 touch app/contact/page.tsx
 touch app/home/page.module.scss
